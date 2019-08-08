@@ -5,6 +5,7 @@ const routes = require('./routes');
 //Criando server baseado na instância do express
 const server = express();
 
+server.use(express.json());
 server.use(routes);
 
 //Posso escolher qual porta usar
