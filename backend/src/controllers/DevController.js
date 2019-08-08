@@ -6,6 +6,12 @@ module.exports = {
     async store (req, res){
         //console.log(req.body.username);
         const { username } = req.body;
+
+        //Verificando se o usuário já existe no banco
+        const userExists = await Dev.findOne({ user: username });
+        if (userExists){
+            return res.json(userExists);
+        }
    
         //Acessando a API do Github utilizando o Axios
         const response = await axios.get(`https://api.github.com/users/${username}`);
