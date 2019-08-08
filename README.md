@@ -78,3 +78,15 @@ http://localhost:3333/?name=Joao
 `yarn dev`;
 
 ### Instalando Banco
+- Vamos usar banco não-relacional;
+- Vamos usar MongoDB;
+- Temos limitações em questão de relacionamentos (se tivermos relacionamentos muito complexos, melhor utilizarmos SQL);
+- Aconselhável a usar o banco relacional;
+
+- Vamos usar o banco pois é um projeto bem pequeno;
+- MongoDB disponibiliza uma interface / banco gratuito na internet "MongoDB Atlas": https://www.mongodb.com/download-center
+
+- Criar conta e banco (qualquer dúvida, visualizar vídeo da segunda aula);
+
+- Dentro do Node, instalar o Mongoose (ODM - Ferramenta que vai facilitar o trabalho com o banco de dados, utilizando apenas JavaScript):
+`yarn add mongoose`
