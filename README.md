@@ -68,3 +68,11 @@ Utilizar JavaScript no backend;
 
 - Acessar URL:
 http://localhost:3333/?name=Joao
+
+- Salvamento e atualização automática:
+`yarn add nodemon -D`
+
+- Adicionado a tag "dev" dentro de scripts do package.json;
+
+- Para rodar agora, basta digitar:
+`yarn dev`;
