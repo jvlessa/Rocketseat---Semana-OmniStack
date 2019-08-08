@@ -16,7 +16,12 @@ module.exports = {
         if (!targetDev){
             return res.status(404).json({ error: 'Dev not exists' });
         }
-        
+
+        //Verificando match
+        if (targetDev.likes.includes(loggedDev._id)){
+            console.log('Deu match!');
+        }
+
         //Armazenando
         loggedDev.likes.push(targetDev._id);
         await loggedDev.save();       
