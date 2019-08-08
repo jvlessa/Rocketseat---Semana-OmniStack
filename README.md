@@ -10,6 +10,7 @@ Node, React, React Native;
 Focar em uma Stack e estudar ela até o fim;
 
 ## Por que essas tecnologias fazem sentido juntas?
+- Hoje é possível dominar front, back, aplicações nativas via JavaScript;
 
 ### Mobile:
 Tecnologias Híbridas não são tão boas, e o desenvolvimento nativo é muito robusto;
@@ -44,3 +45,20 @@ Utilizar JavaScript no backend;
 
 - Instalar Editor de Texto [VS Code](https://code.visualstudio.com/download);
 
+### Desenvolvendo Backend
+- Node não é uma linguagem, o Node é uma plataforma que foi construída em cima da linguagem JavaScript;
+- Foi lançado via Google Chrome. Quando o Google Chrome foi lançado um motor v8 (engine) - que é capaz de ler código JavaScript e converter em um resultado;
+- Node pegou o v8, tirou de dentro do Chrome, fez funcionar fora StandAlone e fez um script para rodar fora do browser;
+
+## Construindo API Rest
+- Criando package.json
+`mkdir backend`
+`yarn init -y` - Cria o package.json
+
+- package.json é responsável por todas as dependências do projeto;
+
+- Adicionando Express (Microframework para ajudar a manipularmos rotas e respostas para o servidor) dentro do package.json
+`yarn add express`
+
+- Surgiram alguns arquivos após a instalação do Express;
+"yarn.lock" - cache (não deletar);
