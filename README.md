@@ -98,3 +98,5 @@ https://cloud.mongodb.com/v2/5d4b7bbd9ccf645782915694#clusters
 - MongoDB Compass: https://www.mongodb.com/products/compass
 - Baixar e conectar com cluester (ver vídeo aula 2);
 
+### Adicionar CORS
+`yarn add cors`
