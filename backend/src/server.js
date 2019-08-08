@@ -17,5 +17,3 @@ server.use(routes);
 
 //Posso escolher qual porta usar
 server.listen(3333);
-
-//M - Model, V - View, C - Controller
