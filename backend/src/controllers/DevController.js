@@ -31,3 +31,7 @@ module.exports = {
         return res.json(dev);
     }
 };
+
+//MÁXIMO DE MÉTODOS EM UM CONTROLLER (5)
+//INDEX, SHOW, STORE, UPDATE, DELETE
+//Caso eu ultrapasse, deve-se criar um novo controller
