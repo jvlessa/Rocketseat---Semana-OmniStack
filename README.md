@@ -87,6 +87,9 @@ http://localhost:3333/?name=Joao
 - MongoDB disponibiliza uma interface / banco gratuito na internet "MongoDB Atlas": https://www.mongodb.com/download-center
 
 - Criar conta e banco (qualquer dúvida, visualizar vídeo da segunda aula);
+- Copiar URL de acesso ao banco (com usuario e senha criados);
 
 - Dentro do Node, instalar o Mongoose (ODM - Ferramenta que vai facilitar o trabalho com o banco de dados, utilizando apenas JavaScript):
 `yarn add mongoose`
+
+- 
