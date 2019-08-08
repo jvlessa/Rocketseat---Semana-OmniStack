@@ -62,3 +62,9 @@ Utilizar JavaScript no backend;
 
 - Surgiram alguns arquivos após a instalação do Express;
 "yarn.lock" - cache (não deletar);
+
+- Para rodar o servidor:
+`node src/server.js`
+
+- Acessar URL:
+http://localhost:3333/?name=Joao
