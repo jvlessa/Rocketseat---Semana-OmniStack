@@ -88,8 +88,13 @@ http://localhost:3333/?name=Joao
 
 - Criar conta e banco (qualquer dúvida, visualizar vídeo da segunda aula);
 - Copiar URL de acesso ao banco (com usuario e senha criados);
+- Meu cluster:
+https://cloud.mongodb.com/v2/5d4b7bbd9ccf645782915694#clusters
 
 - Dentro do Node, instalar o Mongoose (ODM - Ferramenta que vai facilitar o trabalho com o banco de dados, utilizando apenas JavaScript):
 `yarn add mongoose`
 
-- 
+### Visualizar Base de Dados (MongoDB)
+- MongoDB Compass: https://www.mongodb.com/products/compass
+- Baixar e conectar com cluester (ver vídeo aula 2);
+
