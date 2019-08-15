@@ -26,7 +26,7 @@ Utilizar JavaScript no backend;
 ### Aplicação que irá ser desenvolvida:
 - Tindev (rede social que irá encontrar desenvolvedores com características parecidas);
 
-### Configurando ambiente de desenvolvimento:
+# Configurando ambiente de desenvolvimento (BACKEND):
 
 - Instalar gerenciador de pacotes [Chocolatey para Windows](https://chocolatey.org/install);
 `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
@@ -100,3 +100,6 @@ https://cloud.mongodb.com/v2/5d4b7bbd9ccf645782915694#clusters
 
 ### Adicionar CORS
 `yarn add cors`
+
+# Configurando ambiente de desenvolvimento (FRONTEND - WEB):
+- Teste
