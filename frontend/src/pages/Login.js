@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-
 import './Login.css';
+
+import api from '../services/api';
 
 import logo from '../assets/logo.svg'
 
@@ -8,12 +9,18 @@ export default function Login({ history }){
     //Estado do componente
     const [username, setUsername] = useState('');
 
-    function handleSubmit(e){
+    async function handleSubmit(e){
         e.preventDefault();
 
-        console.log(username);
+        const response = await api.post('/devs', {
+            username, 
+        });
 
-        history.push('/main');
+        const { _id } = response.data;
+        //console.log(response);
+        //console.log(username);
+
+        history.push(`/dev/${_id}`);
     }
 
     return (
