@@ -28,10 +28,25 @@ export default function Main({ match }){
         loadUsers();
     }, [ match.params.id ])
 
+    async function handleLike(id){
+        console.log('like', id);
+    }
+
+    async function handleDislike(id){
+        await api.post(`/devs/${id}/dislikes`, null, {
+            headers: {
+                user: match.params.id
+            },
+        })
+
+        //Fazendo usuario nao aparecer mais logo apos o evento (temos que usar o setUsers, sobscrevendo a variavel)
+        setUsers(users.filter(user => user._id != id));
+    }
+
     return (
         <div className="main-container">
             <img src={ logo } alt="Tindev" className="logoImage" />
-            <ul>
+            <ul> 
                 {users.map(user => (
                     <li key={user._id}>
                         <img src={user.avatar} alt={user.name} />
@@ -41,10 +56,11 @@ export default function Main({ match }){
                         </footer>
 
                         <div className="buttons">
-                            <button type="button">
+                            {/*listener para disparar apenas quando o usuario clicar: "() =>" - caso contrário, ele irá executar no momento da renderização*/}
+                            <button type="button" onClick={() => handleDislike(user._id)}>
                                 <img src={dislike} alt="Dislike"/>  
                             </button>
-                            <button type="button">
+                            <button type="button" onClick={() => handleLike(user._id)}>
                                 <img src={like} alt="Like"/>
                             </button>
                         </div>
