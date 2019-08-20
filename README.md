@@ -102,4 +102,12 @@ https://cloud.mongodb.com/v2/5d4b7bbd9ccf645782915694#clusters
 `yarn add cors`
 
 # Configurando ambiente de desenvolvimento (FRONTEND - WEB):
-- Teste
+- Primeiro, é necessário entrar dentro do diretório do backend e rodar o projeto: `yarn dev`;
+- Agora, para criarmos o projeto frontend: `yarn create react-app frontend` OU `npx create react-app frontend`;
+- Acesse a pasta "frontend" e digite: `yarn start`;
+- Todo o código ficará dentro da pasta "src";
+- A coisa mais importante do "index.html" é a div "root";
+
+## Como o React embutiu o código dentro da div "root"?
+- Dentro do arquivo "src/index.js" é possível observar que o React referenciou a div "root";
+- App.js é um componente;
