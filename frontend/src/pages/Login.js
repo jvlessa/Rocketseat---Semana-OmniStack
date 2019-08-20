@@ -4,14 +4,16 @@ import './Login.css';
 
 import logo from '../assets/logo.svg'
 
-export default function Login(){
+export default function Login({ history }){
     //Estado do componente
     const [username, setUsername] = useState('');
 
     function handleSubmit(e){
         e.preventDefault();
-        
+
         console.log(username);
+
+        history.push('/main');
     }
 
     return (
