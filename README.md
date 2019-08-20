@@ -112,3 +112,6 @@ https://cloud.mongodb.com/v2/5d4b7bbd9ccf645782915694#clusters
 - Dentro do arquivo "src/index.js" é possível observar que o React referenciou a div "root";
 - App.js é um componente;
 - React recomendo utilizar atributo "className" ao invés de "class" nos componentes do DOM;
+
+## Biblioteca para rotas do React
+- `yarn add react-router-dom`;
