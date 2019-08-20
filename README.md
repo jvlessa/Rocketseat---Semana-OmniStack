@@ -115,3 +115,5 @@ https://cloud.mongodb.com/v2/5d4b7bbd9ccf645782915694#clusters
 
 ## Biblioteca para rotas do React
 - `yarn add react-router-dom`;
+
+- Adicionando Axios dentro do projeto do frontend: `yarn add axios`;
