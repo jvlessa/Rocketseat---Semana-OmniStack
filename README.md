@@ -119,3 +119,16 @@ https://cloud.mongodb.com/v2/5d4b7bbd9ccf645782915694#clusters
 - Adicionando Axios dentro do projeto do frontend: `yarn add axios`;
 
 - Acessar frontend: "http://localhost:3000/"
+
+# Criando Aplicativo
+
+- Primeira coisa que precisamos fazer, é subir o backend;
+
+- `yarn dev` no diretório do Backend;
+
+- Criando projeto ReactNative: `npx react-native init tindev`;
+
+- Instalar um Emulador do Android: 
+- Instalar um Emulador no IOS (apenas MAC):
+
+
