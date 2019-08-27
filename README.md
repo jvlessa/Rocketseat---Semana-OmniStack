@@ -131,4 +131,7 @@ https://cloud.mongodb.com/v2/5d4b7bbd9ccf645782915694#clusters
 - Instalar um Emulador do Android: 
 - Instalar um Emulador no IOS (apenas MAC):
 
+## Instalando máquina virtual do Mac:
+https://canaltech.com.br/macos/instale-o-os-x-mountain-lion-no-seu-computador-com-windows-usando-o-virtualbox/
+
 
